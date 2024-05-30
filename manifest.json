@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "TransLik",
+  "version": "1.0",
+  "description": "A simple voice recorder extension",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png"
+  }
+}

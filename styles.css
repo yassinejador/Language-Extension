@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.head {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.head>span {
+  color: #00EB5E;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.box-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 9px;
+}
+
+button.one {
+  background-color: #00EB5E;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 113px;
+  height: 31px;
+  cursor: pointer;
+
+}
+
+button.two {
+  background-color: black;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 113px;
+  height: 31px;
+}
+
+.desc {
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: center;
+  color: gray;
+}
+
+.shadow {
+  box-shadow: 0px 1px 2px 0px #c5c5c5;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 1px #959595;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  outline: none;
+  height: 30px;
+  border: 1px solid #8080805c;
+}
+
+option {
+  font-size: 13px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+input[type="radio"] {
+  accent-color: #00EB5E;
+  outline: none;
+  border: none;
+}
+
+#sound-wave {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  width: 2px;
+  height: 6px;
+  background: #00EB5E;
+  animation: sound 0ms -800ms linear infinite alternate;
+  transition: height 0.8s;
+}
+.text-center {
+  text-align: center;
+}
+
+.micro img{
+  border: 2px solid #00EB5E;
+    border-radius: 39px;
+    width: 30px;
+    padding: 11px;
+}
+@keyframes sound {
+  0% {
+    opacity: 0.35;
+    height: 6px;
+  }
+
+  100% {
+    opacity: 1;
+    height: 46px;
+  }
+}
+
+.bar:nth-child(1) {
+  animation-duration: 474ms;
+}
+
+.bar:nth-child(2) {
+  animation-duration: 433ms;
+}
+
+.bar:nth-child(3) {
+  animation-duration: 407ms;
+}
+
+.bar:nth-child(4) {
+  animation-duration: 458ms;
+}
+
+.bar:nth-child(5) {
+  animation-duration: 400ms;
+}
+
+.bar:nth-child(6) {
+  animation-duration: 427ms;
+}
+
+.bar:nth-child(7) {
+  animation-duration: 441ms;
+}
+
+.bar:nth-child(8) {
+  animation-duration: 419ms;
+}
+
+.bar:nth-child(9) {
+  animation-duration: 487ms;
+}
+
+.bar:nth-child(10) {
+  animation-duration: 442ms;
+}
